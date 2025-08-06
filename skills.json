@@ -1,0 +1,68 @@
+{
+  "programming_languages": [
+    "python", "java", "c#", "c++", "javascript", "typescript", "go", "rust", "ruby", "swift",
+    "kotlin", "scala", "php", "objective-c", "r", "matlab", "perl", "haskell", "lua", "dart"
+  ],
+  "scripting_languages": [
+    "bash", "powershell", "zsh", "sh", "batch", "cmd", "vbscript"
+  ],
+  "cloud": [
+    "aws", "azure", "gcp", "google cloud", "amazon web services", "ibm cloud", "oracle cloud",
+    "cloudfront", "lambda", "cloudwatch", "cloudtrail", "s3", "ec2", "iam", "rds", "efs", "ecr",
+    "eks", "aks", "gke", "pubsub", "cloudfunctions", "azuread"
+  ],
+  "security": [
+    "siem", "splunk", "qradar", "elastic", "logrhythm", "mimikatz", "burpsuite", "nmap",
+    "nessus", "nikto", "snort", "suricata", "metasploit", "cobalt strike", "red teaming",
+    "blue teaming", "oscp", "oswe", "owasp", "saml", "kerberos", "ntlm", "jwt", "jwt injection",
+    "csrf", "ssti", "ssti injection", "xss", "sql injection", "dns poisoning", "mitm",
+    "credential dumping", "lsass", "pass-the-hash", "kerberoasting", "golden ticket", "silver ticket"
+  ],
+  "tools": [
+    "git", "docker", "kubernetes", "helm", "jenkins", "ansible", "terraform", "packer", "vault",
+    "nexus", "artifactory", "vagrant", "zabbix", "grafana", "prometheus", "elastic stack",
+    "wireshark", "tcpdump", "curl", "nmap", "hydra", "john the ripper", "hashcat", "aircrack-ng",
+    "eternalblue", "mimikatz", "bloodhound", "neo4j"
+  ],
+  "web_frameworks": [
+    "react", "angular", "vue", "svelte", "next.js", "nuxt.js", "express", "flask", "django",
+    "spring boot", "rails", "laravel", "fastapi", "asp.net"
+  ],
+  "databases": [
+    "mysql", "postgresql", "sqlite", "oracle", "sql server", "mariadb", "mongodb", "redis",
+    "cassandra", "dynamodb", "couchdb", "neo4j", "graphdb"
+  ],
+  "os": [
+    "linux", "windows", "macos", "ubuntu", "debian", "fedora", "centos", "kali", "arch", "alpine",
+    "windows server", "rhel"
+  ],
+  "certifications": [
+    "oscp", "oswe", "ceh", "cissp", "cisa", "chfi", "ccsp", "security+", "network+", "pmp",
+    "aws certified solutions architect", "azure administrator associate", "gpen", "gsec"
+  ],
+  "containers": [
+    "docker", "kubernetes", "openshift", "containerd", "podman", "docker-compose", "cri-o"
+  ],
+  "ci_cd": [
+    "jenkins", "gitlab ci", "github actions", "circleci", "travis ci", "azure devops", "teamcity",
+    "bamboo"
+  ],
+  "monitoring_logging": [
+    "grafana", "prometheus", "splunk", "datadog", "elk", "logstash", "kibana", "cloudwatch", "new relic"
+  ],
+  "iam": [
+    "iam", "sso", "oauth", "openid connect", "saml", "azure ad", "adfs", "duo", "okta", "cyberark"
+  ],
+  "networking": [
+    "tcp/ip", "udp", "dns", "dhcp", "vpn", "firewall", "proxy", "load balancer", "wireshark",
+    "tcpdump", "nmap", "ipsec", "openvpn", "zerotier"
+  ],
+  "vulnerability_management": [
+    "nessus", "qualys", "openvas", "rapid7", "burpsuite", "nuclei", "nikto", "retire.js", "trivy"
+  ],
+  "soft_skills": [
+    "communication", "collaboration", "leadership", "problem-solving", "adaptability",
+    "creativity", "critical thinking", "public speaking", "mentoring", "writing", "negotiation",
+    "time management", "presentation"
+  ]
+}
