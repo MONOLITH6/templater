@@ -9,7 +9,6 @@ This script automates and streamlines your job application workflow by scraping 
 - 🧠 **Keyword extraction** from job description using spaCy NLP
 - 📊 **Excel tracking** of applied roles
 - 📁 **Organized folders** for each job application (timestamped)
-- 📝 Optional PDF conversion and trimming of resumes/cover letters
 
 ## 🧠 Prerequisites
 
