@@ -11,44 +11,6 @@ This script automates and streamlines your job application workflow by scraping 
 - 📁 **Organized folders** for each job application (timestamped)
 - 📝 Optional PDF conversion and trimming of resumes/cover letters
 
-## 🖼️ Directory Structure
-
-📁 your_project/
-
-├── jobs/
-
-│   └── CompanyName/
-
-│       └── YYYY-MM-DD_HH-MM-SS/
-
-│           ├── Resume.docx
-
-│           ├── Resume.pdf
-
-│           ├── Cover_Letter.docx
-
-│           ├── Cover_Letter.pdf
-
-│           └── Job_Description.docx
-
-├── template/
-
-│   ├── template_1/
-
-│   │   ├── Resume.docx
-
-│   │   └── Cover_Letter.docx
-
-│   ├── template_2/
-
-│   └── ...
-
-├── skills.json
-
-├── applications.xlsx
-
-└── main.py
-
 ## 🧠 Prerequisites
 
 Install the following before running the script:
