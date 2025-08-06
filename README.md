@@ -32,10 +32,28 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## 🛠️ Setup
+### Create Your Own Templates
 
-1. Place your resume and cover letter templates under `template/template_1`, `template/template_2`, etc.
-2. Create a `skills.json` file structured like this:
+Place your resume and cover letter templates in subfolders under the `template/` directory.
+
+*Each folder’s name will appear as a category in the CLI selection prompt.*
+For example:
+
+```
+template/
+├── Red_Team/
+├── SOC_Analyst/
+└── Sec_Engineer/
+```
+
+Will display:
+
+```
+Select a template category:
+1. Red_Team
+2. SOC_Analyst
+3. Sec_Engineer
+```
 
 ```json
 {
@@ -52,17 +70,26 @@ python -m spacy download en_core_web_sm
 python templater.py
 ```
 
-## ✅ What It Does
+## 🧪 What the Script Does
 
-1. Asks you for a company name and job posting URL
-2. Scrapes the job title and description using Playwright
-3. Lets you select a resume template
-4. Copies and saves the templates in a new timestamped folder
-5. Extracts keywords using spaCy and matches them against `skills.json`
-6. Saves the job description and keyword matches to `Job_Description.docx`
-7. Adds the application to an `applications.xlsx` log
+1. Prompts you for:
+   * Company name
+   * Job link
+   * Template category
+   * Other notes (optional)
+2. Scrapes job title + full description via Playwright
+3. Creates a timestamped folder for that application
+4. Copies the selected resume and cover letter templates into the folder
+5. Extracts keywords using spaCy and matches them to your `skills.json`
+6. Saves job description and matched skills to `Job_Description.docx`
+7. Updates the `applications.xlsx` file with metadata
 8. Opens the resume and cover letter for redaction
 
 ## 📬 Contact
 
 For feedback, reach out or contribute via GitHub Issues or Pull Requests.
+
+## 💡 Future Ideas
+
+* GPT-4 integration for rewriting resumes and auto-generating custom cover letters
+* Bulk processing of job links
