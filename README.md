@@ -50,7 +50,7 @@ python -m spacy download en_core_web_sm
 3. Run the script using Python:
 
 ```bash
-python main.py
+python templater.py
 ```
 
 ## ✅ What It Does
